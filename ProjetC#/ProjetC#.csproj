@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="View\AppDriver.cs" />
+    <Compile Include="Control\Placeholder.cs" />
+    <Compile Include="DAL\Placeholder.cs" />
+    <Compile Include="DAO\Placeholder.cs" />
+    <Compile Include="Model\Placeholder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

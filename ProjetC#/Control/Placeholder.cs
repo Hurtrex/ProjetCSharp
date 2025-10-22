@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetC_
+namespace ProjetC_.Control
 {
-    internal class Program
+    internal class Placeholder
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProjetC_.DAL
 {
-    internal class Placeholder
+    public interface ITaxBracketDAO
     {
+        double GetAllTaxRate(string agencyName);
     }
 }

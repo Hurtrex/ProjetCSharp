@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetC_.Control
+namespace ProjetC_.DAL
 {
-    internal class Placeholder
+    internal class TaxBracketDAO_MariaBD
     {
     }
 }

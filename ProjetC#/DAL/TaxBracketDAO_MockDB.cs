@@ -1,4 +1,5 @@
 ﻿using ProjetC_.DL;
+using ProjetC_.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,19 @@ namespace ProjetC_.DAL
         public TaxBracketDAO_MockDB()
         {
             this.Datastore = MockDB.GetInstance();
+        }
+
+        public IList<TaxBracket> FindApplicableTaxBrackets(string agency, double income)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double GetAllTaxRate(string agencyName)
+        {
+            foreach (Agency gov in this.Datastore.Agencies)
+                if (gov.Name.ToLower().Equals(agencyName.ToLower()))
+                    return gov.TaxBrackets;
+            return null;
         }
     }
 }

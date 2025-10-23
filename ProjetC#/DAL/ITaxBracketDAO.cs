@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetC_.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,6 @@ namespace ProjetC_.DAL
     public interface ITaxBracketDAO
     {
         double GetAllTaxRate(string agencyName);
+        IList<TaxBracket> FindApplicableTaxBrackets(string agency, double income);
     }
 }

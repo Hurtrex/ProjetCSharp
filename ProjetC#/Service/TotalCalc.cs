@@ -1,4 +1,5 @@
-﻿using ProjetC_.Model;
+﻿using ProjetC_.DL;
+using ProjetC_.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

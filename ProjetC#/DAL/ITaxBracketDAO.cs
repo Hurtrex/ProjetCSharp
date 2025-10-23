@@ -9,7 +9,7 @@ namespace ProjetC_.DAL
 {
     public interface ITaxBracketDAO
     {
-        double GetAllTaxRate(string agencyName);
+        IList<TaxBracket> GetAllTaxRate(string agencyName);
         IList<TaxBracket> FindApplicableTaxBrackets(string agency, double income);
     }
 }
